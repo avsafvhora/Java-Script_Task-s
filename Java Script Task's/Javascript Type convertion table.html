@@ -1,0 +1,287 @@
+<html>
+	<head>
+		<title>java script type convertion table</title>
+		
+		<style>
+			p ,script{
+				text-align:center;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>1.</h1>
+		<p>converting <b>false</b> to other type:<p>
+			<p id="demo" style="font-family:Courier"></p>
+			<script>
+				let a=false;
+				document.getElementById("demo").innerHTML=
+				"Number:" + Number(a) + "<br>" +
+				"String:" + String(a) + "<br>" +
+				"Boolean:" + Boolean(a) ;
+			</script>
+<hr>
+		<h1>2.</h1>
+		<p>converting <b>true</b> to other type:</p>
+			<p id="demo1" style="font-family:Courier"></p>
+			<script>
+				let b=true;
+				document.getElementById("demo1").innerHTML=
+				"Number:" + Number(b) + "<br>" +
+				"String:" + String(b) + "<br>" +
+				"Boolean:" + Boolean(b) ;
+			</script>
+<hr>
+		<h1>3.</h1>
+		<p>converting the number <b>0</b> to other type:</p>
+			<p id="demo2" style="font-family:Courier"></p>
+			<script>
+				let c=0;
+				document.getElementById("demo2").innerHTML=
+				"Number:" + Number(c) + "<br>" +
+				"String:" + String(c) + "<br>" +
+				"Boolean:" + Boolean(c) ;
+			</script>
+<hr>
+		<h1>4.</h1>
+		<p>converting the number <b>1</b> to other type:</p>
+			<p id="demo3" style="font-family:Courier"></p>
+			<script>
+				let d=1;
+				document.getElementById("demo3").innerHTML=
+				"Number:" + Number(d) + "<br>" +
+				"String:" + String(d) + "<br>" +
+				"Boolean:" + Boolean(d) ;
+			</script>
+<hr>
+		<h1>5.</h1>
+		<p>converting the string <b>"0"</b> to other type:</p>
+			<p id="demo4" style="font-family:Courier"></p>
+			<script>
+				let e="0";
+				document.getElementById("demo4").innerHTML=
+				"Number:" + Number(e) + "<br>" +
+				"String:" + String(e) + "<br>" +
+				"Boolean:" + Boolean(e) ;
+			</script>
+<hr>
+		<h1>6.</h1>
+		<p>converting the string <b>"000"</b> to other type:</p>
+			<p id="demo5" style="font-family:Courier"></p>
+			<script>
+				let f="000";
+				document.getElementById("demo5").innerHTML=
+				"Number:" + Number(f) + "<br>" +
+				"String:" + String(f) + "<br>" +
+				"Boolean:" + Boolean(f) ;
+			</script>
+<hr>
+		<h1>7.</h1>
+		<p>converting the string <b>"1"</b> to other type:</p>
+			<p id="demo6" style="font-family:Courier"></p>
+			<script>
+				let g="1";
+				document.getElementById("demo6").innerHTML=
+				"Number:" + Number(g) + "<br>" +
+				"String:" + String(g) + "<br>" +
+				"Boolean:" + Boolean(g) ;
+			</script>
+<hr>
+		<h1>8.</h1>
+		<p>converting  <b>NaN</b> to other type:</p>
+			<p id="demo7" style="font-family:Courier"></p>
+			<script>
+				let h=NaN;
+				document.getElementById("demo7").innerHTML=
+				"Number:" + Number(h) + "<br>" +
+				"String:" + String(h) + "<br>" +
+				"Boolean:" + Boolean(h) ;
+			</script>
+<hr>
+		<h1>9.</h1>
+		<p>converting  <b>Infinity</b> to other type:</p>
+			<p id="demo8" style="font-family:Courier"></p>
+			<script>
+				let i=Infinity;
+				document.getElementById("demo8").innerHTML=
+				"Number:" + Number(i) + "<br>" +
+				"String:" + String(i) + "<br>" +
+				"Boolean:" + Boolean(i) ;
+			</script>
+<hr>
+		<h1>10.</h1>
+		<p>converting  <b>-Infinity</b> to other type:</p>
+			<p id="demo9" style="font-family:Courier"></p>
+			<script>
+				let j=-Infinity;
+				document.getElementById("demo9").innerHTML=
+				"Number:" + Number(j) + "<br>" +
+				"String:" + String(j) + "<br>" +
+				"Boolean:" + Boolean(j) ;
+			</script>
+<hr>
+		<h1>11.</h1>
+		<p>converting an empty string <b>""</b> to other type:</p>
+			<p id="demo10" style="font-family:Courier"></p>
+			<script>
+				let k="";
+				document.getElementById("demo10").innerHTML=
+				"Number:" + Number(k) + "<br>" +
+				"String:" + String(k) + "<br>" +
+				"Boolean:" + Boolean(k) ;
+			</script>
+<hr>
+		<h1>12.</h1>
+		<p>converting a  <b>Numeric String</b> to other type:</p>
+			<p id="demo11" style="font-family:Courier"></p>
+			<script>
+				let l="20";
+				document.getElementById("demo11").innerHTML=
+				"Number:" + Number(l) + "<br>" +
+				"String:" + String(l) + "<br>" +
+				"Boolean:" + Boolean(l) ;
+			</script>
+<hr>
+		<h1>13.</h1>
+		<p>converting a  <b>Text String</b> to other type:</p>
+			<p id="demo12" style="font-family:Courier"></p>
+			<script>
+				let m="twenty";
+				document.getElementById("demo12").innerHTML=
+				"Number:" + Number(m) + "<br>" +
+				"String:" + String(m) + "<br>" +
+				"Boolean:" + Boolean(m) ;
+			</script>
+<hr>
+		<h1>14.</h1>
+		<p>converting an  <b>Empty Array</b> to other type:</p>
+			<p id="demo13" style="font-family:Courier"></p>
+			<script>
+				var n=[];
+				document.getElementById("demo13").innerHTML=
+				"Number:" + Number(n) + "<br>" +
+				"String:" + String(n) + "<br>" +
+				"Boolean:" + Boolean(n) ;
+			</script>
+<hr>
+		<h1>15.</h1>
+		<p>converting an  <b>Array with one umeric element</b> to other type:</p>
+			<p id="demo14" style="font-family:Courier"></p>
+			<script>
+				var o=[20];
+				document.getElementById("demo14").innerHTML=
+				"Number:" + Number(o) + "<br>" +
+				"String:" + String(o) + "<br>" +
+				"Boolean:" + Boolean(o) ;
+			</script>
+<hr>
+		<h1>16.</h1>
+		<p>converting an  <b>Array with two umeric element</b> to other type:</p>
+			<p id="demo15" style="font-family:Courier"></p>
+			<script>
+				var p=[10,20];
+				document.getElementById("demo15").innerHTML=
+				"Number:" + Number(p) + "<br>" +
+				"String:" + String(p) + "<br>" +
+				"Boolean:" + Boolean(p) ;
+			</script>
+<hr>
+		<h1>17.</h1>
+		<p>converting an  <b>Array with one string element</b> to other type:</p>
+			<p id="demo16" style="font-family:Courier"></p>
+			<script>
+				var q =["twenty"];
+				document.getElementById("demo16").innerHTML=
+				"Number:" + Number(q) + "<br>" +
+				"String:" + String(q) + "<br>" +
+				"Boolean:" + Boolean(q) ;
+			</script>
+<hr>
+		<h1>18.</h1>
+		<p>converting an  <b>Array with two string element</b> to other type:</p>
+			<p id="demo17" style="font-family:Courier"></p>
+			<script>
+				var r=["ten","twenty"];
+				document.getElementById("demo17").innerHTML=
+				"Number:" + Number(r) + "<br>" +
+				"String:" + String(r) + "<br>" +
+				"Boolean:" + Boolean(r) ;
+			</script>
+<hr>
+		<h1>19.</h1>
+		<p>converting a  <b>Function</b> to other type:</p>
+			<p id="demo18" style="font-family:Courier"></p>
+			<script>
+				const s=function(){};
+				document.getElementById("demo18").innerHTML=
+				"Number:" + Number(s) + "<br>" +
+				"String:" + String(s) + "<br>" +
+				"Boolean:" + Boolean(s) ;
+			</script>
+<hr>
+		<h1>20.</h1>
+		<p>converting an  <b>Objrct</b> to other type:</p>
+			<p id="demo19" style="font-family:Courier"></p>
+			<script>
+				const t={};
+				document.getElementById("demo19").innerHTML=
+				"Number:" + Number(t) + "<br>" +
+				"String:" + String(t) + "<br>" +
+				"Boolean:" + Boolean(t) ;
+			</script>
+<hr>
+		<h1>21.</h1>
+		<p>converting   <b>null</b> to other type:</p>
+			<p id="demo20" style="font-family:Courier"></p>
+			<script>
+				let u=null;
+				document.getElementById("demo20").innerHTML=
+				"Number:" + Number(u) + "<br>" +
+				"String:" + String(u) + "<br>" +
+				"Boolean:" + Boolean(u) ;
+			</script>
+<hr>
+		<h1>22.</h1>
+		<p>converting  <b>undefined</b> to other type:</p>
+			<p id="demo21" style="font-family:Courier"></p>
+			<script>
+				let v=undefined;
+				document.getElementById("demo21").innerHTML=
+				"Number:" + Number(v) + "<br>" +
+				"String:" + String(v) + "<br>" +
+				"Boolean:" + Boolean(v) ;
+			</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
