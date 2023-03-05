@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>JavaScript For Loop</title>
+	</head>
+	
+	<body>
+			<h1>Java Script  For Loop</h1>
+			<p id="demo"></p>
+			<p id="demo1"></p>
+			
+			<script>
+				const laptop = ["HP","LENOVO","DELL","REDMI","INFINIX","ACER","ASUS","MSI","SAMSUNG","TOSIBA"];
+				let text= "" ;
+				for( let i = 0; i < laptop.length ;i++){
+					text += laptop[i] + "<br>";
+					}
+				document.getElementById("demo").innerHTML = text;
+
+
+
+                let number=" ";
+				for( let i = 0; i <= 5;i++){
+					number += "the number is" + i +"<br>"; 
+					}
+				document.getElementById("demo1").innerHTML =number;
+			</script>
+		
+	</body>
+</html>
+		

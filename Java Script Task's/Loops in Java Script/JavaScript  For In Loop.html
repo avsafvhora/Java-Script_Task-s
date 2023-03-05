@@ -1,0 +1,33 @@
+<html>
+	
+	<head>
+		<title>JavaScript For In Loop</title>
+	</head>
+
+	<body>
+
+		<h1>Java Script For In Loop</h1>
+			<p id="demo"></p>
+			<p id="demo1"></p>
+			
+			<script>
+						
+				const person ={fname:"john",lname:"doe",age:25};
+				let text= "";
+				for(let x in person){
+					text += person[x] + " ";
+					}
+				document.getElementById("demo").innerHTML=text;
+				
+				
+						
+				const num =[45,37,28,23,18,15,9,6,5];
+				let numbers= "";
+				for( let y in num){
+					numbers += num[y] + "<br>";
+					}
+				document.getElementById("demo1").innerHTML=numbers;
+			</script>
+	</body>		
+			
+</html>

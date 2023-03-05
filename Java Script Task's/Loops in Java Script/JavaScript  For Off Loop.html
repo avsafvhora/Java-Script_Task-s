@@ -1,0 +1,34 @@
+<html>
+	
+	<head>
+		<title>JavaScript For Off Loop</title>
+	</head>
+	
+	<body>
+	
+	<h1>Java Script For Of Loop</h1>
+		<p id="demo"></p>
+		<p id="demo1"></p>
+		
+			<script>
+				const cars=["BMW","VOLVO","FORTUNER","SUPRA"];
+					
+				let text= "";
+				for(let x of cars){
+					text += x +"<br>";
+				}
+				document.getElementById("demo").innerHTML=text;
+				
+				
+				
+				let language="JavaScript";
+				
+				let txt= "";
+				for( let y of language){
+					txt+= y +"<br>";
+				}
+				document.getElementById("demo1").innerHTML=txt;
+			</script>
+	
+	</body>
+</html>
